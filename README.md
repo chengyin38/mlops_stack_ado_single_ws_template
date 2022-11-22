@@ -7,6 +7,11 @@ defining a production-grade ML pipeline for automated retraining and batch infer
 See the [Project overview](./docs/project-overview.md) for details on the ML pipeline and code structure
 in this repo.
 
+# Customizations involved
+- Single workspace for staging/prod 
+- Rename secrets without `_` to work with Azure Key Vault 
+- Turn off CD when merging pull requests
+
 ## Using this repo
 
 The table below links to detailed docs explaining how to use this repo for different use cases.
