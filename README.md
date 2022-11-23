@@ -8,6 +8,7 @@ See the [Project overview](./docs/project-overview.md) for details on the ML pip
 in this repo.
 
 # Customizations involved
+- Use project_id to prevent project name clashes under the same Azure susbcription
 - Single workspace for staging/prod 
 - Rename secrets without `_` to work with Azure Key Vault 
 - Turn off CD when merging pull requests
